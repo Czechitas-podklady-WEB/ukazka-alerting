@@ -1,0 +1,50 @@
+.alert {
+  background-color: lightgray;
+  padding: 1rem 1.5rem;
+  border: 1px solid #999;
+  border-radius: 3px;
+  margin: 1rem 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.alert--default {
+  background-color: lightgray;
+}
+
+.alert--info {
+  background-color: skyblue
+}
+
+.alert--success {
+  background-color: lightgreen;
+}
+
+.alert--warning {
+  background-color: yellow
+}
+
+.alert--error {
+  background-color: lightcoral;
+  color: white
+}
+
+.alert--panic {
+  background-color: red;
+  color: white
+}
+
+.alert__head {
+  margin: 0 0 0.25rem 0;
+}
+
+.alert__icon {
+  margin-right: 0.5rem;
+}
+
+.alert__title {
+  font-weight: bold;
+}
+
+.alert p {
+  margin: 0 0 0.5rem 0;
+}
